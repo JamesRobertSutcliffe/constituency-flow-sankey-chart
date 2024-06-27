@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Constituency Flow Sankey Chart</title>
+    <title>Conservative Seat Flow Sankey Chart</title>
     <link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 <body>
-    <h1>Hello World</h1>
-    
+    <h1>Predicted flow of Tory Held Constituencies (2024 General Election)</h1>
+    <div class="chart-container">
+        <svg width="960" height="750"></svg>
+    </div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
     <script type="module" src="dataModule.js"></script>
     <script type="module" src="app.js"></script>
+    <h1>Data source: <a href="https://ygo-assets-websites-editorial-emea.yougov.net/documents/YouGov_2024_general_election_MRP_2.xlsx">YouGov</a></h1>
 </body>
 </html>

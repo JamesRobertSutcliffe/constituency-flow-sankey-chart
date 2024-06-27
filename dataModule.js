@@ -20,16 +20,6 @@ async function fetchData() {
             if (item["2019 v 2024 status"] === "Reform gain from Conservatives") reform.push(item);
             if (item["2019 v 2024 status"] === "SNP gain from Conservatives") snp.push(item);
         });
-
-        console.log(
-            cons2019.length,
-            conservatives.length,
-            labour.length,
-            libDem.length,
-            plaid.length,
-            reform.length,
-            snp.length
-        );
     } catch (error) {
         console.error('Error loading JSON data:', error);
     }
