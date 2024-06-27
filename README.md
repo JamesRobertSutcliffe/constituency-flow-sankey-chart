@@ -30,3 +30,7 @@ links: [
 { source: 2, target: 5, value: 100000 }
 ]
 };
+
+Further ideas -
+
+- Visualise how where parties sit on the spectrum influences flow of vote, i.e. labour to green and reform to cons.
