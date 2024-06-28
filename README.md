@@ -5,8 +5,8 @@ Sankey Diagram visualising the predicted flow of constituency votes between the 
 To Do:
 
 1 - Add interactivity
-2 - Write up Readme
-3 - Deploy
+2 - Possibly add bubble or pie chart?
+3 - Write up Readme
 4 - Carefully craft email about further ideas
 
 Further ideas -
