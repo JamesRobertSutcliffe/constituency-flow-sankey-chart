@@ -110,7 +110,7 @@ setTimeout(() => {
         .attr("y", d => (d.y1 - d.y0) / 2)
         .attr("dy", "0.35em")
         .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
-        .text(d => `${d.name} - ${d.seats} seats`);
+        .text(d => `${d.name} - ${d.seats} ${d.seats > 1 ? "seats" : "seat"}`);
 
     console.log(seats);
 }, 1000);
