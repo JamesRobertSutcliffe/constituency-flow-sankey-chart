@@ -48,8 +48,8 @@ setTimeout(() => {
             { name: "SNP (2024)", seats: snp.length },
         ],
         links: [
-            { source: 0, target: 1, value: conservatives.length },
             { source: 0, target: 2, value: labour.length },
+            { source: 0, target: 1, value: conservatives.length },
             { source: 0, target: 3, value: libDem.length },
             { source: 0, target: 4, value: reform.length },
             { source: 0, target: 5, value: plaid.length },
