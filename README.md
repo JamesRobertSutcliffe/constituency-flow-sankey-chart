@@ -4,8 +4,7 @@ Sankey Diagram visualising the predicted flow of constituency votes between the 
 
 To Do:
 
-1 - Add interactivity
-2 - Fix asynchrounous issues / replace settimeout function setup
+1 - Make mobile friendly
 3 - Write up Readme
 4 - Carefully craft email about further ideas
 
