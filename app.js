@@ -48,8 +48,8 @@ setTimeout(() => {
             { name: "SNP (2024)", seats: snp.length },
         ],
         links: [
-            { source: 0, target: 1, value: conservatives.length },
             { source: 0, target: 2, value: labour.length },
+            { source: 0, target: 1, value: conservatives.length },
             { source: 0, target: 3, value: libDem.length },
             { source: 0, target: 4, value: reform.length },
             { source: 0, target: 5, value: plaid.length },
@@ -110,7 +110,7 @@ setTimeout(() => {
         .attr("y", d => (d.y1 - d.y0) / 2)
         .attr("dy", "0.35em")
         .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
-        .text(d => `${d.name} - ${d.seats} seats`);
+        .text(d => `${d.name} - ${d.seats} ${d.seats > 1 ? "seats" : "seat"}`);
 
     console.log(seats);
 }, 1000);
