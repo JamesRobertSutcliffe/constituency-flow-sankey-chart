@@ -23,7 +23,6 @@ h1 {
     fill-opacity: .9;
     shape-rendering: crispEdges;
     border-radius: 10%;
-    
 }
 
 .node text {
@@ -35,4 +34,28 @@ h1 {
     fill: none;
     stroke: #000;
     stroke-opacity: .2;
+}
+
+.tooltip {
+    position: absolute;
+    left: 20px;  /* Position the tooltip to the left of the diagram */
+    top: 50px;  /* Adjust the top position as needed */
+    text-align: center;
+    padding: 8px;
+    font-size: 0.9rem;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.node-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-anchor: middle;
+}
+
+.outflows-text {
+    font-size: 1rem;
+    text-anchor: middle;
 }
